@@ -3,7 +3,6 @@
 import csv
 import math
 import time
-import sys,os
 import astropy
 import numpy as np
 import pandas as pd
