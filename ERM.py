@@ -18,14 +18,6 @@ layout = [  [sg.Text('Exoplanet Ring Model', justification='center', size=(60, 1
             [sg.InputText(key = 'r_a', font = ('Times New Roman', 15), size = (25, 1)), sg.InputText(key = 'r_d', font = ('Times New Roman', 15), size = (25, 1))],
             [sg.Text('Ring Width', justification = 'center', size = (30), font = ('Times New Roman', 14)), sg.Text('Ring Thickness', justification = 'center', size = (30), font = ('Times New Roman', 14))],
             [sg.InputText(key = 'r_w', font = ('Times New Roman', 15), size = (25, 1)), sg.InputText(key = 'r_t', font = ('Times New Roman', 15), size = (25, 1))],
-            [sg.Text('Planet Albedo', justification = 'center', size = (30), font = ('Times New Roman', 14)), sg.Text('Planet Obliquity', justification = 'center', size = (30), font = ('Times New Roman', 14))],
-            [sg.InputText(key = 'p_a', font = ('Times New Roman', 15), size = (25, 2)), sg.InputText(key = 'p_o', font = ('Times New Roman', 15), size = (25, 2))],
-            [sg.Text('Planet Radius', justification = 'center', size = (30), font = ('Times New Roman', 14)), sg.Text('Planet-Star Distance', justification = 'center', size = (30), font = ('Times New Roman', 14))],
-            [sg.InputText(key = 'p_r', font = ('Times New Roman', 15), size = (25, 2)), sg.InputText(key = 'D', font = ('Times New Roman', 15), size = (25, 2))],
-            [sg.Text('Planet Eccentricity', justification = 'center', size = (30), font = ('Times New Roman', 14)), sg.Text('Orbital Period', justification = 'center', size = (30), font = ('Times New Roman', 14))],
-            [sg.InputText(key = 'p_e', font = ('Times New Roman', 15), size = (25, 2)), sg.InputText(key = 'P', font = ('Times New Roman', 15), size = (25, 2))],
-            [sg.Text('Solar Constant', justification = 'center', size = (30), font = ('Times New Roman', 14)), sg.Text('Atm. Composition Parameter', justification = 'center', size = (30), font = ('Times New Roman', 14))],
-            [sg.InputText(key = 'SC', font = ('Times New Roman', 15), size = (25, 2)), sg.InputText(key = 'amp', font = ('Times New Roman', 15), size = (25, 2))],
             [sg.Button('Run ERM', size = (22), button_color = 'green'), sg.Button('Help', size = (22), button_color = 'orange'), sg.Button('Close ERM', size = (22), button_color = 'red')]]
 
 #Makes the windows in the layout from above
