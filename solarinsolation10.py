@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
-import math
+#import math
+from math import sin, cos, tan, atan
 
 # Constants and parameters
 a_s = 9.539  # AU
