@@ -5,17 +5,21 @@ import math
 
 # Constants and parameters
 a_s = 9.539  # AU
-e = 0.056 #eccentricity
-AofP = 279  # degrees
-epsilon = 26.73  # degrees
-T = 10.23  # hr
-R_se = 60400  # km
-R_sp = 56400  # km
-S_0 = 0.0213  # cal/(cm^2)
+e = 0.056 # eccentricity
+AofP = 279  # angle subtended at the origin by point P on the rings (degrees)
+epsilon = 26.73  # obliquity in degrees
+T = 10.23  # rotational period (hr)
+R_se = 60400  # equitorial radius (km)
+R_sp = 56400  # polar radius (km)
+S_0 = 0.0213  # mean solar constant ( cal/(cm^2) )
 T_s = T * 3600  # Convert Saturn day length to seconds
 P_y = 29.46 * 365.25  # Period of Saturn's year in Earth days
 P_y_s = P_y * 24 * 3600  # Period of Saturn's year in seconds
 P_y_sd = P_y_s / T_s  # Period of Saturn's year in Saturn days
+
+# need R_p ?
+
+
 
 rings_data = [
     (120000, 137000, 0.5),  # Ring A
